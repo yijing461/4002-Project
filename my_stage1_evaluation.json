@@ -1,0 +1,33 @@
+{
+  "checkpoint": "tune_dropout0.5.pt",
+  "checkpoint_sha256": "e35995f6cd45434c330b206a4126ade0bcb435ada448ade93d1da16735571424",
+  "config": {
+    "epochs": 40,
+    "batch_size": 32,
+    "lr": 0.001,
+    "slot_weight": 1.0,
+    "hidden": 256,
+    "layers": 2,
+    "dropout": 0.5,
+    "patience": 8,
+    "clip": 5.0,
+    "seed": 42
+  },
+  "best_epoch": 40,
+  "total_parameters": 4429387,
+  "trainable_parameters": 4429387,
+  "validation": {
+    "intent_accuracy": 86.07968519429414,
+    "slot_f1": 79.2896568274538,
+    "tp": 1652,
+    "fp": 503,
+    "fn": 360
+  },
+  "test": {
+    "intent_accuracy": 85.27236045729657,
+    "slot_f1": 75.61436672967864,
+    "tp": 2200,
+    "fp": 804,
+    "fn": 615
+  }
+}
