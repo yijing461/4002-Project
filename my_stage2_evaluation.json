@@ -1,0 +1,66 @@
+{
+  "checkpoint": "stage2_best.pt",
+  "checkpoint_sha256": "80c6879c43351e47494dea031ef2e223191ef70eaba196b466c705ac4af8bd58",
+  "config": {
+    "epochs": 40,
+    "batch_size": 32,
+    "lr": 0.001,
+    "slot_weight": 1.0,
+    "hidden": 256,
+    "layers": 2,
+    "dropout": 0.5,
+    "patience": 8,
+    "clip": 5.0,
+    "seed": 42,
+    "word_dropout": 0.0,
+    "crf": true
+  },
+  "best_epoch": 39,
+  "total_parameters": 4441930,
+  "trainable_parameters": 4441930,
+  "validation": {
+    "intent_accuracy": 86.57156910969012,
+    "slot_f1": 80.63007629830174,
+    "tp": 1638,
+    "fp": 413,
+    "fn": 374
+  },
+  "test": {
+    "intent_accuracy": 85.07061197041023,
+    "slot_f1": 78.53127196064652,
+    "tp": 2235,
+    "fp": 642,
+    "fn": 580
+  },
+  "scoring": "shared_evaluation.py: duplicate-aware exact (type, text) micro-F1",
+  "original_span_scores": {
+    "dev": {
+      "slot_f1": 80.63007629830174,
+      "tp": 1638,
+      "fp": 413,
+      "fn": 374
+    },
+    "test": {
+      "slot_f1": 78.53127196064652,
+      "tp": 2235,
+      "fp": 642,
+      "fn": 580
+    }
+  },
+  "provenance": {
+    "processed.pkl": "b41481dc89e10fe723d6922e90980f05b41c2336d127994d3b264007d3dd736f",
+    "shared_evaluation.py": "9a92f560214d2b5749098bf74c48468a7efb858a1574d3326f6ee246dd9e1601",
+    "my_stage1_evaluation.json": "c8b90898d3267e15b2a53de0fe9ad534bc5833fa1ccdb662e025d310c2d5f640"
+  },
+  "environment": {
+    "python": "3.13.3",
+    "torch": "2.15.0+cpu",
+    "device": "cpu"
+  },
+  "saved_validation_metrics": {
+    "loss": 1.1873588860034943,
+    "intent_acc": 86.57156910969012,
+    "slot_f1": 80.63007629830174,
+    "exact_match": 68.71618298081653
+  }
+}

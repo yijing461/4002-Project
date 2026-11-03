@@ -1,0 +1,3 @@
+.venv-evaluation/
+__pycache__/
+.ipynb_checkpoints/

@@ -1,0 +1,1050 @@
+{
+  "dev": {
+    "intent_errors": 273,
+    "examples_with_any_error": 636,
+    "invalid_BIO_transitions": 3,
+    "top_intent_confusions": [
+      {
+        "gold": "qa_factoid",
+        "predicted": "general_quirky",
+        "count": 9
+      },
+      {
+        "gold": "qa_factoid",
+        "predicted": "qa_definition",
+        "count": 7
+      },
+      {
+        "gold": "general_quirky",
+        "predicted": "news_query",
+        "count": 6
+      },
+      {
+        "gold": "general_quirky",
+        "predicted": "weather_query",
+        "count": 6
+      },
+      {
+        "gold": "calendar_set",
+        "predicted": "calendar_query",
+        "count": 5
+      },
+      {
+        "gold": "recommendation_locations",
+        "predicted": "takeaway_order",
+        "count": 5
+      },
+      {
+        "gold": "general_quirky",
+        "predicted": "datetime_query",
+        "count": 4
+      },
+      {
+        "gold": "calendar_query",
+        "predicted": "calendar_set",
+        "count": 4
+      },
+      {
+        "gold": "transport_ticket",
+        "predicted": "transport_query",
+        "count": 4
+      },
+      {
+        "gold": "general_quirky",
+        "predicted": "calendar_set",
+        "count": 4
+      }
+    ],
+    "slots_by_type": {
+      "house_place": {
+        "tp": 23,
+        "fp": 4,
+        "fn": 2
+      },
+      "order_type": {
+        "tp": 17,
+        "fp": 1,
+        "fn": 2
+      },
+      "food_type": {
+        "tp": 37,
+        "fp": 18,
+        "fn": 14
+      },
+      "place_name": {
+        "tp": 176,
+        "fp": 33,
+        "fn": 33
+      },
+      "song_name": {
+        "tp": 11,
+        "fp": 10,
+        "fn": 12
+      },
+      "artist_name": {
+        "tp": 30,
+        "fp": 10,
+        "fn": 15
+      },
+      "meal_type": {
+        "tp": 10,
+        "fp": 5,
+        "fn": 2
+      },
+      "date": {
+        "tp": 314,
+        "fp": 31,
+        "fn": 25
+      },
+      "time": {
+        "tp": 105,
+        "fp": 25,
+        "fn": 32
+      },
+      "player_setting": {
+        "tp": 25,
+        "fp": 11,
+        "fn": 11
+      },
+      "change_amount": {
+        "tp": 5,
+        "fp": 1,
+        "fn": 1
+      },
+      "music_genre": {
+        "tp": 26,
+        "fp": 6,
+        "fn": 11
+      },
+      "weather_descriptor": {
+        "tp": 49,
+        "fp": 17,
+        "fn": 10
+      },
+      "timeofday": {
+        "tp": 47,
+        "fp": 6,
+        "fn": 2
+      },
+      "alarm_type": {
+        "tp": 1,
+        "fp": 4,
+        "fn": 1
+      },
+      "media_type": {
+        "tp": 81,
+        "fp": 14,
+        "fn": 17
+      },
+      "playlist_name": {
+        "tp": 5,
+        "fp": 8,
+        "fn": 2
+      },
+      "news_topic": {
+        "tp": 26,
+        "fp": 26,
+        "fn": 14
+      },
+      "device_type": {
+        "tp": 30,
+        "fp": 6,
+        "fn": 5
+      },
+      "color_type": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 3
+      },
+      "event_name": {
+        "tp": 125,
+        "fp": 40,
+        "fn": 35
+      },
+      "joke_type": {
+        "tp": 6,
+        "fp": 2,
+        "fn": 2
+      },
+      "business_name": {
+        "tp": 48,
+        "fp": 12,
+        "fn": 10
+      },
+      "business_type": {
+        "tp": 24,
+        "fp": 7,
+        "fn": 9
+      },
+      "game_name": {
+        "tp": 12,
+        "fp": 9,
+        "fn": 6
+      },
+      "music_descriptor": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 8
+      },
+      "coffee_type": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "radio_name": {
+        "tp": 12,
+        "fp": 11,
+        "fn": 9
+      },
+      "general_frequency": {
+        "tp": 8,
+        "fp": 4,
+        "fn": 7
+      },
+      "person": {
+        "tp": 109,
+        "fp": 15,
+        "fn": 23
+      },
+      "time_zone": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      },
+      "app_name": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 2
+      },
+      "podcast_descriptor": {
+        "tp": 8,
+        "fp": 5,
+        "fn": 2
+      },
+      "list_name": {
+        "tp": 32,
+        "fp": 11,
+        "fn": 5
+      },
+      "transport_type": {
+        "tp": 54,
+        "fp": 6,
+        "fn": 0
+      },
+      "definition_word": {
+        "tp": 38,
+        "fp": 11,
+        "fn": 5
+      },
+      "drink_type": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 2
+      },
+      "relation": {
+        "tp": 37,
+        "fp": 13,
+        "fn": 5
+      },
+      "personal_info": {
+        "tp": 5,
+        "fp": 3,
+        "fn": 4
+      },
+      "sport_type": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      "podcast_name": {
+        "tp": 5,
+        "fp": 6,
+        "fn": 3
+      },
+      "audiobook_name": {
+        "tp": 10,
+        "fp": 8,
+        "fn": 6
+      },
+      "audiobook_author": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      },
+      "cooking_type": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 1
+      },
+      "ingredient": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 4
+      },
+      "game_type": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      },
+      "movie_type": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      "movie_name": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+      },
+      "transport_agency": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 1
+      },
+      "transport_name": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+      },
+      "transport_descriptor": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0
+      },
+      "currency_name": {
+        "tp": 40,
+        "fp": 8,
+        "fn": 5
+      },
+      "email_folder": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0
+      },
+      "email_address": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "first_five_errors": [
+      {
+        "index": 2,
+        "utterance": "make a room darker",
+        "tokens": [
+          "make",
+          "a",
+          "room",
+          "darker"
+        ],
+        "gold_intent": "iot_hue_lightdim",
+        "predicted_intent": "iot_hue_lightup",
+        "gold_tags": [
+          "O",
+          "O",
+          "B-house_place",
+          "O"
+        ],
+        "predicted_tags": [
+          "O",
+          "O",
+          "B-house_place",
+          "O"
+        ],
+        "gold_slots": [
+          [
+            "house_place",
+            "room"
+          ]
+        ],
+        "predicted_slots": [
+          [
+            "house_place",
+            "room"
+          ]
+        ]
+      },
+      {
+        "index": 4,
+        "utterance": "cleaning is good dust is so bad do now your magic clean my carpet",
+        "tokens": [
+          "cleaning",
+          "is",
+          "good",
+          "dust",
+          "is",
+          "so",
+          "bad",
+          "do",
+          "now",
+          "your",
+          "magic",
+          "clean",
+          "my",
+          "carpet"
+        ],
+        "gold_intent": "iot_cleaning",
+        "predicted_intent": "general_quirky",
+        "gold_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "B-house_place"
+        ],
+        "predicted_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "gold_slots": [
+          [
+            "house_place",
+            "carpet"
+          ]
+        ],
+        "predicted_slots": []
+      },
+      {
+        "index": 5,
+        "utterance": "give me the status on my available memory",
+        "tokens": [
+          "give",
+          "me",
+          "the",
+          "status",
+          "on",
+          "my",
+          "available",
+          "memory"
+        ],
+        "gold_intent": "general_quirky",
+        "predicted_intent": "lists_query",
+        "gold_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "predicted_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "gold_slots": [],
+        "predicted_slots": []
+      },
+      {
+        "index": 8,
+        "utterance": "i'd like to hear queen's barcelona",
+        "tokens": [
+          "i'd",
+          "like",
+          "to",
+          "hear",
+          "queen's",
+          "barcelona"
+        ],
+        "gold_intent": "play_music",
+        "predicted_intent": "play_music",
+        "gold_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "B-artist_name",
+          "B-song_name"
+        ],
+        "predicted_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "B-song_name",
+          "I-song_name"
+        ],
+        "gold_slots": [
+          [
+            "artist_name",
+            "queen's"
+          ],
+          [
+            "song_name",
+            "barcelona"
+          ]
+        ],
+        "predicted_slots": [
+          [
+            "song_name",
+            "queen's barcelona"
+          ]
+        ]
+      },
+      {
+        "index": 11,
+        "utterance": "what's with my dinner order",
+        "tokens": [
+          "what's",
+          "with",
+          "my",
+          "dinner",
+          "order"
+        ],
+        "gold_intent": "takeaway_query",
+        "predicted_intent": "takeaway_query",
+        "gold_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "predicted_tags": [
+          "O",
+          "O",
+          "O",
+          "B-meal_type",
+          "O"
+        ],
+        "gold_slots": [],
+        "predicted_slots": [
+          [
+            "meal_type",
+            "dinner"
+          ]
+        ]
+      }
+    ]
+  },
+  "test": {
+    "intent_errors": 444,
+    "examples_with_any_error": 978,
+    "invalid_BIO_transitions": 4,
+    "top_intent_confusions": [
+      {
+        "gold": "qa_factoid",
+        "predicted": "general_quirky",
+        "count": 16
+      },
+      {
+        "gold": "general_quirky",
+        "predicted": "qa_factoid",
+        "count": 12
+      },
+      {
+        "gold": "general_quirky",
+        "predicted": "news_query",
+        "count": 10
+      },
+      {
+        "gold": "general_quirky",
+        "predicted": "calendar_query",
+        "count": 9
+      },
+      {
+        "gold": "transport_ticket",
+        "predicted": "transport_query",
+        "count": 9
+      },
+      {
+        "gold": "calendar_set",
+        "predicted": "calendar_query",
+        "count": 7
+      },
+      {
+        "gold": "qa_factoid",
+        "predicted": "email_querycontact",
+        "count": 7
+      },
+      {
+        "gold": "play_music",
+        "predicted": "music_likeness",
+        "count": 6
+      },
+      {
+        "gold": "lists_remove",
+        "predicted": "calendar_remove",
+        "count": 6
+      },
+      {
+        "gold": "transport_query",
+        "predicted": "general_quirky",
+        "count": 5
+      }
+    ],
+    "slots_by_type": {
+      "time": {
+        "tp": 150,
+        "fp": 42,
+        "fn": 43
+      },
+      "date": {
+        "tp": 388,
+        "fp": 54,
+        "fn": 28
+      },
+      "color_type": {
+        "tp": 21,
+        "fp": 5,
+        "fn": 5
+      },
+      "device_type": {
+        "tp": 48,
+        "fp": 15,
+        "fn": 9
+      },
+      "house_place": {
+        "tp": 49,
+        "fp": 6,
+        "fn": 9
+      },
+      "song_name": {
+        "tp": 20,
+        "fp": 14,
+        "fn": 19
+      },
+      "place_name": {
+        "tp": 234,
+        "fp": 53,
+        "fn": 47
+      },
+      "time_zone": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 4
+      },
+      "music_genre": {
+        "tp": 41,
+        "fp": 17,
+        "fn": 9
+      },
+      "artist_name": {
+        "tp": 40,
+        "fp": 9,
+        "fn": 21
+      },
+      "food_type": {
+        "tp": 51,
+        "fp": 30,
+        "fn": 21
+      },
+      "timeofday": {
+        "tp": 55,
+        "fp": 5,
+        "fn": 5
+      },
+      "meal_type": {
+        "tp": 18,
+        "fp": 7,
+        "fn": 0
+      },
+      "order_type": {
+        "tp": 15,
+        "fp": 4,
+        "fn": 4
+      },
+      "news_topic": {
+        "tp": 25,
+        "fp": 28,
+        "fn": 24
+      },
+      "weather_descriptor": {
+        "tp": 62,
+        "fp": 19,
+        "fn": 20
+      },
+      "playlist_name": {
+        "tp": 8,
+        "fp": 6,
+        "fn": 8
+      },
+      "currency_name": {
+        "tp": 48,
+        "fp": 6,
+        "fn": 2
+      },
+      "player_setting": {
+        "tp": 19,
+        "fp": 6,
+        "fn": 20
+      },
+      "event_name": {
+        "tp": 203,
+        "fp": 73,
+        "fn": 57
+      },
+      "list_name": {
+        "tp": 46,
+        "fp": 17,
+        "fn": 14
+      },
+      "media_type": {
+        "tp": 104,
+        "fp": 18,
+        "fn": 24
+      },
+      "music_descriptor": {
+        "tp": 2,
+        "fp": 8,
+        "fn": 5
+      },
+      "joke_type": {
+        "tp": 9,
+        "fp": 2,
+        "fn": 2
+      },
+      "business_name": {
+        "tp": 65,
+        "fp": 24,
+        "fn": 27
+      },
+      "game_name": {
+        "tp": 19,
+        "fp": 5,
+        "fn": 7
+      },
+      "alarm_type": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 1
+      },
+      "business_type": {
+        "tp": 19,
+        "fp": 12,
+        "fn": 13
+      },
+      "general_frequency": {
+        "tp": 15,
+        "fp": 5,
+        "fn": 5
+      },
+      "change_amount": {
+        "tp": 6,
+        "fp": 2,
+        "fn": 2
+      },
+      "person": {
+        "tp": 186,
+        "fp": 42,
+        "fn": 33
+      },
+      "app_name": {
+        "tp": 3,
+        "fp": 4,
+        "fn": 2
+      },
+      "movie_name": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 1
+      },
+      "ingredient": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6
+      },
+      "coffee_type": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 1
+      },
+      "drink_type": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 1
+      },
+      "music_album": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1
+      },
+      "relation": {
+        "tp": 53,
+        "fp": 21,
+        "fn": 6
+      },
+      "audiobook_name": {
+        "tp": 14,
+        "fp": 12,
+        "fn": 9
+      },
+      "definition_word": {
+        "tp": 42,
+        "fp": 13,
+        "fn": 9
+      },
+      "podcast_name": {
+        "tp": 8,
+        "fp": 18,
+        "fn": 9
+      },
+      "radio_name": {
+        "tp": 23,
+        "fp": 17,
+        "fn": 10
+      },
+      "podcast_descriptor": {
+        "tp": 16,
+        "fp": 2,
+        "fn": 8
+      },
+      "audiobook_author": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 5
+      },
+      "cooking_type": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 4
+      },
+      "movie_type": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 3
+      },
+      "transport_type": {
+        "tp": 62,
+        "fp": 3,
+        "fn": 3
+      },
+      "transport_name": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 2
+      },
+      "transport_agency": {
+        "tp": 9,
+        "fp": 2,
+        "fn": 0
+      },
+      "transport_descriptor": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 2
+      },
+      "personal_info": {
+        "tp": 5,
+        "fp": 6,
+        "fn": 9
+      },
+      "email_address": {
+        "tp": 8,
+        "fp": 1,
+        "fn": 1
+      },
+      "email_folder": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "first_five_errors": [
+      {
+        "index": 2,
+        "utterance": "pink is all we need",
+        "tokens": [
+          "pink",
+          "is",
+          "all",
+          "we",
+          "need"
+        ],
+        "gold_intent": "iot_hue_lightchange",
+        "predicted_intent": "calendar_query",
+        "gold_tags": [
+          "B-color_type",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "predicted_tags": [
+          "B-color_type",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "gold_slots": [
+          [
+            "color_type",
+            "pink"
+          ]
+        ],
+        "predicted_slots": [
+          [
+            "color_type",
+            "pink"
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "utterance": "and the darkness has fallen",
+        "tokens": [
+          "and",
+          "the",
+          "darkness",
+          "has",
+          "fallen"
+        ],
+        "gold_intent": "iot_hue_lighton",
+        "predicted_intent": "general_quirky",
+        "gold_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "predicted_tags": [
+          "O",
+          "O",
+          "B-device_type",
+          "O",
+          "O"
+        ],
+        "gold_slots": [],
+        "predicted_slots": [
+          [
+            "device_type",
+            "darkness"
+          ]
+        ]
+      },
+      {
+        "index": 5,
+        "utterance": "it's dirty here make some noise",
+        "tokens": [
+          "it's",
+          "dirty",
+          "here",
+          "make",
+          "some",
+          "noise"
+        ],
+        "gold_intent": "iot_cleaning",
+        "predicted_intent": "play_music",
+        "gold_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "predicted_tags": [
+          "O",
+          "B-song_name",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "gold_slots": [],
+        "predicted_slots": [
+          [
+            "song_name",
+            "dirty"
+          ]
+        ]
+      },
+      {
+        "index": 6,
+        "utterance": "hoover the hallway",
+        "tokens": [
+          "hoover",
+          "the",
+          "hallway"
+        ],
+        "gold_intent": "iot_cleaning",
+        "predicted_intent": "email_querycontact",
+        "gold_tags": [
+          "O",
+          "O",
+          "B-house_place"
+        ],
+        "predicted_tags": [
+          "O",
+          "O",
+          "O"
+        ],
+        "gold_slots": [
+          [
+            "house_place",
+            "hallway"
+          ]
+        ],
+        "predicted_slots": []
+      },
+      {
+        "index": 7,
+        "utterance": "i want the status on my screen brightness",
+        "tokens": [
+          "i",
+          "want",
+          "the",
+          "status",
+          "on",
+          "my",
+          "screen",
+          "brightness"
+        ],
+        "gold_intent": "general_quirky",
+        "predicted_intent": "iot_hue_lighton",
+        "gold_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "predicted_tags": [
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        "gold_slots": [],
+        "predicted_slots": []
+      }
+    ]
+  }
+}
